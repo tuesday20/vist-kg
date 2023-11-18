@@ -1,8 +1,8 @@
-ul {
-     display: inline-block;
-     list-style-type: none;
-     border: 1px solid;
-     font-size: 20px;
-     font-family: Monaco;
-     font-weight: bold;
-}
+ row {
+    display: inline-block;
+    border: 3px solid;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Monaco;
+    }
