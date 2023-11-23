@@ -1,11 +1,10 @@
- .top-menu {
-    ccposition: relative;
-     background-color: darkgrey;
+.top-menu {
+    position: relative;
+    background-color: darkgrey;
     width: 100%;
     z-index: 5;
     text-align: center;
  }
-
  row {
     display: inline-block;
     padding: 10px;
@@ -16,79 +15,90 @@
     font-family: Monaco;
     background-color: lightgrey;
     }
-
-  .banner {
-      width: 100%;
+.banner {
+    width: 100%;
       }
 
-  .header {
-    font-size: 32px;
-    font-weight: bold;
-    position: relative;
-        }
-
-  .welcome {
+.welcome {
      text-align: center;
-     font-family: Century Gothic;
+     font-family: Perpetua;
      font-size: 32px;
      font-weight: bold;
      margin: 70px;
      color: black;
-     border-top: 3px dotted lightgrey;
+     position: relative;
+  }
+
+.welcome-color {
+    border-top: 3px dotted lightgrey;
      border-bottom: 2px dotted lightgrey;
      padding: 5px;
      border-left: none;
      border-right: none;
-     position: relative;
-  }
-
-  .welcome-color {
-     color:darkslategrey
+     color: darkslategrey;
           }
+ .h3 {
+  font-family: Perpetua;
+  font-size: 32px;
+  font-weight: bold;
+  color: darkslategrey;
+  text-align: center;
+  margin-top: 100px;
+ }         
         
- .parahraph {
+        
+.paragraph {
     text-align: center;
-    font-family: Century Gothic;
-    font-size: 25px;
-    opacity: 0;
+    font-family: Copperplate;
+    font-size: 28px;
     }
 
-  .sticky-border {
-    margin: 40px;
-    position: sticky;
-    top: 40px;
-    border: 15px solid #DBE9EE;
-    background-color: white;
+ ol {
+   font-family: Copperplate;
+  font-size: 32px;
+  color: black;
+  text-align: left;
+ }         
+ 
+
+.sticky-border {
+     margin: 40px;
+     position: sticky;
+     top: 40px;
+     border: 15px solid #DBE9EE;
+     background-color: white;
            }
       
-   .questions {
-     text-align: center;
-     font-family: Monaco;
-     font-size: 23px;
-     color: lightseagreen;
-     font-weight: bold;
+.questions {
+   text-align: center;
+   font-family: Monaco;
+   font-size: 23px;
+   color: lightseagreen;
+   font-weight: bold;
            }
-   p {
+
+p {
      color: black;
-     }
+    }
 
-  .answers {
-      border: 1px solid lightseagreen;
-      font-family: Monaco;
-      font-size: 28px; 
-      text-align: center;
-      padding: 15px;
-      margin: 15px;
-      color: lightseagreen;
-      font-weight: bold;
-          }
+.answers {
+    border: 1px solid lightseagreen;
+    font-family: Monaco;
+    font-size: 28px; 
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: lightseagreen;
+    font-weight: bold;
+    }
 
-   footer {
-       background-color: #DBE9EE;
-       text-align: center;
-            }
+footer {
+   background-color: #DBE9EE;
+   text-align: center;
+    }
 
-    answer:hover {
-      background: #C0D6DF;
-      color: #FFFF
-            }
+answer:hover {
+   background: #C0D6DF;
+   color: #FFFF
+  }
+
