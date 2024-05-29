@@ -1,44 +1,74 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-.navigation {
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  margin: 0;
-  padding: 18px;
-  background-color: #333;
-  color: white;
-  width: 100%;
-  position: absolute;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-}
-.navigation ul {
-  list-style-type: none;
-  display: flex;
-  padding: 20;
-  justify-content: space-between;
-  align-items: center;
-}
-.navigation li {
-  padding-right: 17px;
-}
-
-.navigation .left {
-  display: flex;
-  justify-content: space-between;
-}
-.navigation .right {
-  display: flex;
-  justify-content: flex-end;
-}
-.navigation ul li:hover {
-  content: pointer;
-  align-items: center;
-  color: #3577E3;
-}
-.kg {
-  font-size: 25px;
-}
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   html, body {
+    height: 100%;
+   }
+   /*navigation-bar-section*/
+   
+   .navigation {
+     font-family: Arial, sans-serif;
+     font-size: 20px;
+     margin: 0;
+     padding: 18px;
+     background-color: #333;
+     color: white;
+     width: 100%;
+     position: absolute;
+     justify-content: space-between;
+     align-items: center;
+     box-sizing: border-box;
+   }
+   .navigation ul {
+     list-style-type: none;
+     display: flex;
+     padding: 20;
+     justify-content: space-between;
+     align-items: center;
+   }
+   .navigation li {
+     padding-right: 17px;
+   }
+   
+   .navigation .left {
+     display: flex;
+     justify-content: space-between;
+   }
+   .navigation .right {
+     display: flex;
+     justify-content: flex-end;
+   }
+   .navigation ul li:hover {
+     content: pointer;
+     align-items: center;
+     color: #3577E3;
+   }
+   .kg {
+     font-size: 25px;
+   }
+   
+   /*banner-section*/
+   .image-banner {  
+     width: 100%;
+     display: flex;
+   }
+   .photo-yurt .photo-mountain {
+    flex: 1;
+    background-position: center center;
+   }
+   .photo-yurt {
+    background-image: url(resources/images/IMG_3667.JPG);
+    height: 960px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   }
+   .photo-mountain {
+    background-image: url(resources/images/IMG_3689.JPG);
+    height: 960px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   }
