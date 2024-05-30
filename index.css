@@ -11,7 +11,8 @@
    /*navigation-bar-section*/
    
    .navigation {
-     font-family: Arial, sans-serif;
+     font-family: "Fjalla One", sans-serif;
+     font-weight: 400;
      font-size: 20px;
      margin: 0;
      padding: 18px;
@@ -82,8 +83,9 @@
     text-align:justify;
     top: 50%;
     text-transform: uppercase;
-    font-family: "Titan One", sans-serif;
-    font-weight: 600;
+    font-family: "Space Mono", monospace;
+    font-weight: bolder;
+    font-style: italic;
     letter-spacing: 4px;
   }
   .photo-right {
@@ -94,5 +96,25 @@
   .photo-left {
     color:bisque;
     text-align: center;
+  }
+  header, h1 {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+
+  }
+  p {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  /*scrollable-images*/
+  .scrollable-images {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    overflow: scroll;
+    width: 25%;
+    height: 25%;
   }
   
