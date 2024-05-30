@@ -1,120 +1,139 @@
 * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-   }
-   html, body {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-   }
-   /*navigation-bar-section*/
-   
-   .navigation {
-     font-family: "Fjalla One", sans-serif;
-     font-weight: 400;
-     font-size: 20px;
-     margin: 0;
-     padding: 18px;
-     background-color: #333;
-     color: white;
-     width: 100%;
-     position: absolute;
-     justify-content: space-between;
-     align-items: center;
-     box-sizing: border-box;
-   }
-   .navigation ul {
-     list-style-type: none;
-     display: flex;
-     padding: 20;
-     justify-content: space-between;
-     align-items: center;
-   }
-   .navigation li {
-     padding-right: 17px;
-   }
-   
-   .navigation .left {
-     display: flex;
-     justify-content: space-between;
-   }
-   .navigation .right {
-     display: flex;
-     justify-content: flex-end;
-   }
-   .navigation ul li:hover {
-     content: pointer;
-     align-items: center;
-     color: #3577E3;
-   }
-   .kg {
-     font-size: 25px;
-   }
-   
-   /*banner-section*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ width: 100%;
+ overflow-x: hidden;
+}
+/*navigation-bar-section*/
 
-   .image-banner {  
-     width: 100%;
-     display: flex;
-   }
-   .photo-yurt .photo-mountain {
-    flex: 1;
-    background-position: center center;
-   }
-   .photo-yurt {
-    background-image: url(resources/images/IMG_3667.JPG);
-    height: 1000px;
-    width: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  
-   }
-   .photo-mountain {
-    background-image: url(resources/images/IMG_3690.JPG);
-    height: 1000px;
-    width: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-   }
-   h1 {
-    text-overflow: initial;
-    position: relative;
-    text-align:justify;
-    top: 50%;
-    text-transform: uppercase;
-    font-family: "Space Mono", monospace;
-    font-weight: bolder;
-    font-style: italic;
-    letter-spacing: 4px;
-  }
-  .photo-right {
-    color: #f3940f;
-    text-align: center;
-  }
+.navigation {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  padding: 18px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  top: 0; /* Align it to the top */
+  z-index: 1000; 
+}
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  padding: 20;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation li {
+  padding-right: 17px;
+}
 
-  .photo-left {
-    color:bisque;
-    text-align: center;
-  }
-  header, h1 {
-    padding-top: 15px;
-    text-align: center;
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
+.navigation .left {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation .right {
+  display: flex;
+  justify-content: flex-end;
+}
+.navigation ul li:hover {
+  content: pointer;
+  align-items: center;
+  color: #3577E3;
+}
+.kg {
+  font-size: 25px;
+}
 
-  }
-  p {
-    padding-top: 15px;
-    font-size: 18px;
-  }
-  /*scrollable-images*/
-  .scrollable-images {
-    box-sizing: border-box;
-    display: flex;
-    position: relative;
-    overflow: scroll;
-    width: 25%;
-    height: 25%;
-  }
+/*banner-section*/
+
+.image-banner {  
+  width: 100%;
+  display: flex;
+}
+.photo-yurt .photo-mountain {
+ flex: 1;
+ background-position: center center;
+}
+.photo-yurt {
+ background-image: url(resources/images/IMG_3667.JPG);
+ height: 1000px;
+ width: 100%;
+ background-size: 100%;
+ background-repeat: no-repeat;
+
+}
+.photo-mountain {
+ background-image: url(resources/images/IMG_3690.JPG);
+ height: 1000px;
+ width: 100%;
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+h1 {
+ text-overflow: initial;
+ position: relative;
+ text-align:justify;
+ top: 50%;
+ text-transform: uppercase;
+ font-family: "Space Mono", monospace;
+ font-weight: bolder;
+ font-style: italic;
+ letter-spacing: 4px;
+}
+.photo-right {
+ color: #f3940f;
+ text-align: center;
+}
+
+.photo-left {
+ color:bisque;
+ text-align: center;
+}
+header, h1 {
+ padding-top: 15px;
+ text-align: center;
+ font-family: "Space Mono", monospace;
+ font-weight: 400;
+
+}
+p {
+ padding-top: 15px;
+ font-size: 18px;
+}
+/*scrollable-images*/
+.scrollable-images {
+ display: flex;
+ position: relative;
+ overflow-x: auto;
+ width: 100%;
+ white-space: nowrap;
+ scroll-behavior: smooth;
+ padding-top: 50px;
+}
+.image-section {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+.image-section img {
+  height: 450px; 
+  margin: 10px;
+  flex-shrink: 0; 
+  object-fit: cover;
+  border-radius: 4px;
+}
   
