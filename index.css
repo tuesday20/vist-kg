@@ -16,7 +16,7 @@ html, body {
   font-size: 20px;
   margin: 0;
   padding: 18px;
-  background-color: #333;
+  background-color: #675e5e;
   color: white;
   width: 100%;
   position: fixed;
@@ -156,52 +156,121 @@ p {
   font-family: "Space Mono", monospace;
   padding-bottom: 25px;
   padding-left: 10px;
+  text-align: center;
+}
+ul h3 {
+  text-align: center;
 }
 .destinations ul {
   font-size: 20px;
   padding: 25px 0px;
 }
+/*Bishkek-section*/
+
 .bishkek-city {
-  justify-content: space-between;
   display: flex;
+  align-items: center ;
+  padding-bottom: 10px;
+  justify-content: center;
 }
 .bishkek-city img {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   padding: 10px;
   margin-left: 10px;
   object-fit: cover;
-  text-align: left;
   color: bisque;
   background-color: rgb(228, 220, 209);
   border-radius: 3px;
-  justify-content: space-between;
-  display: flex;
 }
 .bishkek-li {
   padding: 15px 10px;
 }
 .bishkek-city p ,img{
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .bishkek-city p {
-  /*right: 42%;*/
-  /*bottom: 60%;*/
-  max-width: 50%;
+  padding: 10px;
+  background-color: white;
 }
 
-  .bishkek-city .bishkek-button {
-    display: block; /* Make the button a block element */
-    margin-top: 15px; /* Space between the paragraph text and button */
-    padding: 10px 15px; /* Padding inside the button */
-    font-size: 16px; /* Font size for the button text */
+  .bishkek-button {
+    display: inline-block; 
+    margin-top: 15px; 
+    padding: 10px 15px; 
+    font-size: 16px; 
     cursor: pointer;
-    background-color: #3577E3;
+    background-color: rgb(192, 186, 186);
     color: white;
     border: none;
     border-radius: 4px;
-    text-align: center;
+    position: relative;
+    height: 40px;
+    top: 58%;
+    right: 615px;
+  }
+  .bishkek-button:hover {
+    content: pointer;
+    color: #3577E3;
+  }
+  /*Issyk-kul-section*/
+
+  .issyk-kul {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: dotted 2px black;
+    border-bottom-width: 25;
+    padding-bottom: 10px;
+  }
+  .issyk-kul img {
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    margin-left: 10px;
+    object-fit: cover;
+    text-align: left;
+    color: bisque;
+    background-color: rgb(228, 220, 209);
+    border-radius: 3px;
+    justify-content: space-between;
+    display: flex;
+  }
+  .issyk-kul-li {
+    padding: 15px 10px;
+  }
+  .issyk-kul p, img {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .issyk-kul p {
+    max-width: 50%;
+    padding: 10px; 
+    margin-right: 10px;
+    position: relative;
+    flex: 1; 
+    right: 350px;
+  }
+  p h4 {
+    position: relative;
+  }
+  .issyk-kul-button {
+    display: inline-block; 
+    margin-top: 15px; 
+    padding: 20px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    background-color: rgb(192, 186, 186);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    height: 40px;
+    top: 55%;
+    right: 615px;
+  }
+  .issyk-kul-button:hover {
+    content: pointer;
+    color: #3577E3;
   }
   
