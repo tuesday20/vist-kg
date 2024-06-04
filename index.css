@@ -185,6 +185,7 @@ ul h3 {
 }
 .bishkek-li {
   padding: 15px 10px;
+  margin-top: 15px;
 }
 .bishkek-p {
   padding: 10px;
@@ -229,6 +230,8 @@ ul h3 {
   }
   .issyk-kul-li {
     padding: 15px 10px;
+    margin-top: 15px;
+    
   }
   .issyk-kul-p {
    padding: 10px;
@@ -274,4 +277,57 @@ ul h3 {
     content: pointer;
     color: #3577E3;
   }
+  .highlights-section{
+    text-align: center;
+    position: relative;
+  }
+  }
+  .highlights-section ul {
+    padding-left: 20%;
+    position: relative;
+  }
+  .link {
+    text-transform: none;
+  }
+
+/*Ala-archa-section*/
+
+.ala-archa {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ala-archa img {
+  width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 10px;
+    object-fit: cover;  
+    color: bisque;
+    background-color: rgb(228, 220, 209);
+}
+.ala-archa-li {
+  padding: 15px 10px;
+  text-align: center;
+  margin-top: 35px;
+}
+.ala-archa-p{
+  padding: 10px;
+   background-color: white;
+   text-align: center;
+}
+.ala-archa-p button {
+  display: inline-block; 
+    margin-top: 15px; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    cursor: pointer;
+    background-color: rgb(192, 186, 186);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+}
   
