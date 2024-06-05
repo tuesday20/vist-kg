@@ -174,43 +174,75 @@ ul h3 {
   align-items: center;
 }
 .bishkek-city img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   padding: 10px;
   margin-left: 10px;
   object-fit: cover;
-  color: bisque;
-  background-color: rgb(228, 220, 209);
+  border-image: 5px;
+  background-color: rgb(214, 248, 248);
   
 }
 .bishkek-li {
-  padding: 15px 10px;
+  padding: 30px 10px;
   margin-top: 15px;
 }
 .bishkek-p {
-  padding: 10px;
-  background-color: white;
   text-align: center;
-  
+  margin-top: 35px;
+  margin-bottom: 70px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: dotted 2px rgb(14, 187, 187);
+  border-top: dotted 2px rgb(14, 187, 187);
+  border-left: dotted 2px rgb(14, 187, 187);
+  border-right: dotted 2px rgb(14, 187, 187);
+  border-style: outset;
+  font-style: oblique;
+  font-size: 25px;
+  font-weight: 500;
 }
-
-  .bishkek-p button{
-    display: inline-block; 
-    margin-top: 15px; 
-    padding: 10px 15px; 
-    font-size: 16px; 
+.highlights-section-bishkek {
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(214, 248, 248);
+    padding: 25px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.highlights-section-bishkek {
+  text-align: left;
+}
+.highlights-section-bishkek h4 {
+  text-align: center;
+}
+.highlights-section-bishkek ul {
+  position: relative;
+  padding-left: 20%;
+}
+.highlights-section-bishkek li {
+  padding-top: 10px;
+  font-size: 23px;
+}
+  .highlights-section-bishkek button{
+    display: inline-block;  
+    padding: 15px; 
+    font-size: 15px;
     cursor: pointer;
-    background-color: rgb(192, 186, 186);
-    color: white;
+    background-color: greenyellow;
+    color: black;
     border: none;
     border-radius: 4px;
     position: relative;
-    text-align: center;
+    height: 40px;
   }
   .bishkek-button:hover {
     content: pointer;
     color: #3577E3;
   }
+
   /*Issyk-kul-section*/
 
   .issyk-kul {
@@ -220,71 +252,81 @@ ul h3 {
     align-items: center;
   }
   .issyk-kul img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     padding: 10px;
     margin-left: 10px;
     object-fit: cover;
-    color: bisque;
-    background-color: rgb(228, 220, 209);
+    border-image: 5px;
+    background-color: rgb(214, 248, 248);
   }
   .issyk-kul-li {
-    padding: 15px 10px;
+    padding: 30px 10px;
     margin-top: 15px;
-    
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: larger;
   }
   .issyk-kul-p {
-   padding: 10px;
-   background-color: white;
    text-align: center;
+   margin-top: 35px;
+   margin-bottom: 70px;
+   padding-bottom: 15px;
+   padding-right: 10px;
+   padding-left: 10px;
+   border-bottom: dotted 2px rgb(14, 187, 187);
+   border-top: dotted 2px rgb(14, 187, 187);
+   border-left: dotted 2px rgb(14, 187, 187);
+   border-right: dotted 2px rgb(14, 187, 187);
+   border-style: outset;
+   font-family: "Space Mono", monospace;
+   font-style: oblique;
+   font-size: 25px;
+   font-weight: 500;
   }
-  .issyk-kul-p button {
-    display: inline-block; 
-    margin-top: 15px; 
-    padding: 10px 15px; 
-    font-size: 16px; 
-    cursor: pointer;
-    background-color: rgb(192, 186, 186);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    position: relative;
-    text-align: center;
-  }
+ 
   button:hover {
     content: pointer;
     color: #3577E3
   }
-  p h4 {
-    position: relative;
-  }
-  .issyk-kul-button {
-    display: inline-block; 
-    margin-top: 15px; 
-    padding: 20px 20px; 
-    font-size: 16px; 
+ 
+  .highlights-section-issyk-kul button {
+    display: inline-block;  
+    padding: 15px; 
+    font-size: 15px; 
     cursor: pointer;
-    background-color: rgb(192, 186, 186);
-    color: white;
+    background-color: greenyellow;
+    color: black;
     border: none;
     border-radius: 4px;
     position: relative;
     height: 40px;
-    top: 55%;
-    right: 615px;
   }
-  .issyk-kul-button:hover {
+  .highlights-section-issyk-kul button:hover {
     content: pointer;
     color: #3577E3;
   }
-  .highlights-section{
+  .highlights-section-issyk-kul{
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(214, 248, 248);
+    font-family: "Space Mono", monospace;
+    padding: 25px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .highlights-section-issyk-kul h4 {
     text-align: center;
+  }
+  
+  .highlights-section-issyk-kul ul {
     position: relative;
-  }
-  }
-  .highlights-section ul {
     padding-left: 20%;
-    position: relative;
+  }
+  .highlights-section-issyk-kul li {
+    padding-top: 10px;
+    font-size: 23px;
   }
   .link {
     text-transform: none;
