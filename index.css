@@ -14,16 +14,17 @@ html, body {
   font-family: "Fjalla One", sans-serif;
   font-weight: 400;
   font-size: 20px;
+  text-decoration: none;
   margin: 0;
   padding: 18px;
-  background-color: #675e5e;
-  color: white;
+  background-color: aqua;
+  color: grey;
   width: 100%;
   position: fixed;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  top: 0; /* Align it to the top */
+  top: 0; 
   z-index: 1000; 
 }
 .navigation ul {
@@ -263,9 +264,9 @@ ul h3 {
   .issyk-kul-li {
     padding: 30px 10px;
     margin-top: 15px;
-    text-align: center;
+    font-size:  23px;
     font-family: "Space Mono", monospace;
-    font-size: larger;
+    text-align: center  ;
   }
   .issyk-kul-p {
    text-align: center;
@@ -318,6 +319,7 @@ ul h3 {
   }
   .highlights-section-issyk-kul h4 {
     text-align: center;
+    font-size: 23px;
   }
   
   .highlights-section-issyk-kul ul {
@@ -341,35 +343,175 @@ ul h3 {
   align-items: center;
 }
 .ala-archa img {
-  width: 300px;
-    height: 300px;
-    padding: 10px;
-    margin-left: 10px;
-    object-fit: cover;  
-    color: bisque;
-    background-color: rgb(228, 220, 209);
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  margin-left: 10px;
+  object-fit: cover;
+  border-image: 5px;
+  background-color: rgb(214, 248, 248);
 }
 .ala-archa-li {
-  padding: 15px 10px;
+  padding: 30px 10px;
+  margin-top: 15px;
+  font-size:  23px;
+  font-family: "Space Mono", monospace;
   text-align: center;
-  margin-top: 35px;
 }
 .ala-archa-p{
-  padding: 10px;
-   background-color: white;
-   text-align: center;
+ text-align: center;
+ margin-top: 35px;
+ margin-bottom: 70px;
+ padding-bottom: 15px;
+ padding-right: 10px;
+ padding-left: 10px;
+ border-bottom: dotted 2px rgb(14, 187, 187);
+ border-top: dotted 2px rgb(14, 187, 187);
+ border-left: dotted 2px rgb(14, 187, 187);
+ border-right: dotted 2px rgb(14, 187, 187);
+ border-style: outset;
+ font-family: "Space Mono", monospace;
+ font-style: oblique;
+ font-size: 25px;
+ font-weight: 500;
 }
-.ala-archa-p button {
-  display: inline-block; 
-    margin-top: 15px; 
-    padding: 10px 15px; 
-    font-size: 16px; 
-    cursor: pointer;
-    background-color: rgb(192, 186, 186);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    position: relative;
-    text-align: center;
+.highlights-section-alaarcha {
+ position: relative;
+ text-align: left;
+ box-sizing: border-box;
+ background-color: rgb(214, 248, 248);
+ font-family: "Space Mono", monospace;
+ padding: 25px;
+ margin-top: 20px;
+ margin-left: 60px;
+ margin-right: 60px;
+}
+.highlights-section-alaarcha h4 {
+  text-align: center;
+  position: relative;
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+.highlights-section-alaarcha ul {
+  position: relative;
+  padding-left: 20%;
+}
+.highlights-section-alaarcha li {
+  padding-top: 10px;
+  font-size: 23px;
+}
+.highlights-section-alaarcha button {
+  display: inline-block;  
+  padding: 15px; 
+  font-size: 15px;
+  cursor: pointer;
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  height: 40px;
+}
+.ala-archa-button:hover {
+  content: pointer;
+  color: #3577E3;
+}
+
+/*Song-kul-section*/
+
+.song-kul {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song-kul img {
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  margin-left: 10px;
+  object-fit: cover;
+  border-image: 5px;
+  background-color: rgb(214, 248, 248);
+}
+.song-kul-li {
+  padding: 30px 10px;
+  margin-top: 15px;
+  font-size:  23px;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
+.song-kul-p {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: dotted 2px rgb(14, 187, 187);
+  border-top: dotted 2px rgb(14, 187, 187);
+  border-left: dotted 2px rgb(14, 187, 187);
+  border-right: dotted 2px rgb(14, 187, 187);
+  border-style: outset;
+  font-family: "Space Mono", monospace;
+  font-style: oblique;
+  font-size: 25px;
+  font-weight: 500;
+}
+.highlights-song-kul {
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: rgb(214, 248, 248);
+  font-family: "Space Mono", monospace;
+  padding: 25px;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.highlights-song-kul h4 {
+  text-align: center;
+  position: relative;
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+.highlights-section-issyk-kul h4 {
+  position: relative;
+  padding-left: 20%;
+}
+.highlights-song-kul ul {
+  position: relative;
+  padding-left: 20%;
+}
+.highlights-song-kul li {
+  padding-top: 10px;
+  font-size: 23px;
+}
+.highlights-song-kul button {
+  display: inline-block;  
+  padding: 15px; 
+  font-size: 15px;
+  cursor: pointer;
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  height: 40px;
+}
+.highlights-song-kul button:hover {
+  content: pointer;
+  color: #3577E3;
+}
+
+/*footer-section*/
+footer {
+  background-color: aqua;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  margin-top: 25px;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
 }
   
