@@ -49,7 +49,7 @@ html, body {
 .navigation ul li:hover {
   content: pointer;
   align-items: center;
-  color: #3577E3;
+  color: #49e085;
 }
 .kg {
   font-size: 25px;
