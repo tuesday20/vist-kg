@@ -37,7 +37,9 @@ html, body {
 .navigation li {
   padding-right: 17px;
 }
-
+.navigation li a {
+  text-decoration: none;
+}
 .navigation .left {
   display: flex;
   justify-content: space-between;
