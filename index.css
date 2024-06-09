@@ -100,6 +100,7 @@ h1 {
 .photo-left {
  color:bisque;
  text-align: center;
+ font-weight: bolder;
 }
 header, h1 {
  padding-top: 30px;
