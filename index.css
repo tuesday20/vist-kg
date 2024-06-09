@@ -94,6 +94,7 @@ h1 {
 .photo-right {
  color: #f3940f;
  text-align: center;
+ font-weight: bolder;
 }
 
 .photo-left {
