@@ -113,6 +113,10 @@ header, h1 {
  font-weight: 400;
 
 }
+h1 .intro {
+  letter-spacing: 5px;
+  line-height: 4;
+}
 p {
  padding-top: 15px;
  font-size: 18px;
