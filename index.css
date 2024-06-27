@@ -12,7 +12,7 @@ html, body {
 
 .navigation {
   font-family: "Fjalla One", sans-serif;
-  font-weight: 400;
+  font-weight: regular;
   font-size: 21px;
   text-decoration: none;
   margin: 0;
